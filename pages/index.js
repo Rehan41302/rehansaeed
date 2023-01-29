@@ -24,15 +24,15 @@ const Index = () => {
                   <h6>Hello, I am</h6>
                   <h1 className="font-alt">Rehan Saeed</h1>
                   <p className="lead">
-                    I am Passionate <TypingAnimation />
+                    I am a Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites, web
+                    I develop services for companies of all sizes,
+                    specializing in developing stylish, modern web applications, web
                     services and online stores.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" href="#">
+                    <a className="px-btn px-btn-theme" target="_blank" href="https://docs.google.com/document/d/18EyRTDY4KNvb7wn8DWnou800ahGpL4Uk/edit?usp=sharing&ouid=103167468450554446613&rtpof=true&sd=true">
                       Donwload CV
                     </a>
                   </div>
@@ -40,7 +40,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/home-banner.png" title="" alt="" />
+                  {/* <img src="static/img/main-banner.webp" title="" alt="" /> */}
                 </div>
               </div>
             </div>
