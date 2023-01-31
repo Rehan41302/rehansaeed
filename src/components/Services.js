@@ -20,10 +20,11 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-mobile" />
               <div className="feature-content media-body">
-                <h5>Web Design</h5>
+                <h5>Web Development</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I have extensive experience building responsive and user-friendly 
+                  web applications using technologies such as React, NextJs, VueJs, TailwindCSS, MaterialUI and more. 
+                  I can help you develop web applications that meets your unique needs.
                 </p>
               </div>
             </div>
@@ -32,10 +33,12 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-desktop" />
               <div className="feature-content media-body">
-                <h5>Web Development</h5>
+                <h5>Mobile App Development</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I am proficient in developing high-quality mobile apps for both 
+                  iOS and Android platforms using technologies like React Native, Ionic, and others. 
+                  I can help you create a mobile app that delivers a seamless user experience 
+                  and provides real value to your customers.
                 </p>
               </div>
             </div>
@@ -44,10 +47,11 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-target" />
               <div className="feature-content media-body">
-                <h5>SEO Marketing</h5>
+                <h5>Database Management</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I have the skills to design, implement, and manage databases using technologies 
+                  like MySQL, MongoDB, and others. I can help you create a database that is efficient, 
+                  secure, and scalable, ensuring that your data is always protected and accessible.
                 </p>
               </div>
             </div>
@@ -56,10 +60,11 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-mobile" />
               <div className="feature-content media-body">
-                <h5>Web Design</h5>
+                <h5>Custom Software Development</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I have experience creating custom software solutions for clients, based on their specific 
+                  needs and requirements. Whether you need a custom CRM system, an e-commerce platform, 
+                  or a custom application, I can help you bring your vision to life.
                 </p>
               </div>
             </div>
@@ -68,10 +73,11 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-desktop" />
               <div className="feature-content media-body">
-                <h5>Web Development</h5>
+                <h5>Maintenance and Support</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I understand that delivering a project is just the beginning. I am committed to providing 
+                  ongoing maintenance and support for all of my clients' projects, ensuring that they 
+                  continue to run efficiently.
                 </p>
               </div>
             </div>
@@ -80,17 +86,17 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-target" />
               <div className="feature-content media-body">
-                <h5>SEO Marketing</h5>
+                <h5>Project Methodology</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I take a proactive approach to project management to ensure that each project is delivered on time, 
+                  within budget, and to the highest quality standards. I ensure the successful delivery of each project.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="separated" />
-        <Testimonials />
+        {/* <div className="separated" />
+        <Testimonials /> */}
       </div>
     </section>
   );

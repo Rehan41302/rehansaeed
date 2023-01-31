@@ -61,23 +61,23 @@ const Contact = () => {
             <div className="contact-info">
               <h4>What’s your story? Get in touch</h4>
               <p>
-                Always available for freelancing if the right project comes
+                Also available for freelancing if the right project comes
                 along, Feel free to contact me.
               </p>
               <ul>
                 <li className="media">
                   <i className="ti-map" />
                   <span className="media-body">
-                    123 Stree New York City , United States Of America 750065.
+                    Karachi, Pakistan.
                   </span>
                 </li>
                 <li className="media">
                   <i className="ti-email" />
-                  <span className="media-body">support@domain.com</span>
+                  <span className="media-body">saeedrehan3@gmail.com</span>
                 </li>
                 <li className="media">
-                  <i className="ti-mobile" />
-                  <span className="media-body">+044 9696 9696 3636</span>
+                  <i className="ti-linkedin" />
+                  <span className="media-body">linkedin.com/in/rehan-saeed-667459160/</span>
                 </li>
               </ul>
             </div>
@@ -186,7 +186,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="col-12">
+          {/* <div className="col-12">
             <div className="google-map">
               <div className="embed-responsive embed-responsive-21by9">
                 <iframe
@@ -196,7 +196,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
