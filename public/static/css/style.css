@@ -1589,10 +1589,10 @@ mark {
 }
 @media (min-width: 768px) {
   .resume-row .rb-left {
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.05); */
   }
   .theme-light .resume-row .rb-left {
-    border-right: 1px solid rgba(11, 11, 19, 0.05);
+    /* border-right: 1px solid rgba(11, 11, 19, 0.05); */
   }
 }
 @media (max-width: 767px) {
@@ -1640,6 +1640,14 @@ mark {
 .resume-row .rb-right p {
   margin-bottom: 0;
   max-width: 80%;
+}
+.resume-row .rb-right p span {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.resume-row .rb-right p span::before {
+  content: '->';
+  margin-right: 6px;
 }
 @media (max-width: 991px) {
   .resume-row .rb-right p {

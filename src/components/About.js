@@ -73,19 +73,19 @@ const About = () => {
           <div className="col-lg-4 m-15px-tb">
             <ul className="aducation-box">
               <li>
-                <span>2010-2012</span>
-                <h6>Graphic Designer</h6>
-                <p>International Design Institute</p>
+                <span>2018-2022</span>
+                <h6>BS Software Engineering</h6>
+                <p>Indus University</p>
               </li>
               <li>
-                <span>2010-2012</span>
-                <h6>Web Development</h6>
-                <p>International Design Institute</p>
+                <span>2022-2022</span>
+                <h6>Micro-services with NodeJs</h6>
+                <p>LinkedIn Learning</p>
               </li>
               <li>
-                <span>2010-2012</span>
-                <h6>Search Engine Optimization</h6>
-                <p>International Design Institute</p>
+                <span>2017-2018</span>
+                <h6>Web and Mobile Application Development</h6>
+                <p>Usman Institute of Technology</p>
               </li>
             </ul>
           </div>
@@ -99,7 +99,7 @@ const About = () => {
                 Experiences.
               </p>
               <div className="skill-lt">
-                <h6>HTML5</h6>
+                <h6>ReactJs</h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "92%" }}>
                     <span data-toggle="tooltip" title="92%" />
@@ -108,28 +108,46 @@ const About = () => {
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>WordPress</h6>
+                <h6>NextJs</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "72%" }}>
-                    <span data-toggle="tooltip" title="72%" />
+                  <div className="skill-bar-in" style={{ width: "80%" }}>
+                    <span data-toggle="tooltip" title="80%" />
                   </div>
                 </div>
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>Magento</h6>
+                <h6>NodeJs</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "86%" }}>
-                    <span data-toggle="tooltip" title="86%" />
+                  <div className="skill-bar-in" style={{ width: "78%" }}>
+                    <span data-toggle="tooltip" title="78%" />
                   </div>
                 </div>
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>UI/UX</h6>
+                <h6>Firebase</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "88%" }}>
-                    <span data-toggle="tooltip" title="88%" />
+                  <div className="skill-bar-in" style={{ width: "78%" }}>
+                    <span data-toggle="tooltip" title="78%" />
+                  </div>
+                </div>
+              </div>
+              {/* /skill */}
+              <div className="skill-lt">
+                <h6>MongoDB</h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "50%" }}>
+                    <span data-toggle="tooltip" title="50%" />
+                  </div>
+                </div>
+              </div>
+              {/* /skill */}
+              <div className="skill-lt">
+                <h6>Netlify</h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "48%" }}>
+                    <span data-toggle="tooltip" title="48%" />
                   </div>
                 </div>
               </div>
@@ -146,20 +164,25 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a1.png" title="" alt="" />
+                  <img src="static/img/denovers-logo.jpg" title="" alt="" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Full stack Software Engineer</h6>
+                  <label>Denovers | On-site | Jun 2020 - Present</label>
                   <div className="rb-time">Full Time</div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
+                    <ul>
+                      <li>Worked on an in-house product from start to deployment using ReactJS and Firebase and implemented
+                      all the designed requirements into the live product.</li>
+                      <li>Built CRMs on NextJs and MySQL using Prisma</li>
+                      <li>Converted a Pre-built React App into Next JS for SEO enhancement.</li>
+                      <li>Revamped various products and applied enhancements based on requirements.</li>
+                      <li>Working on a distribution platform for content creators using ReactJs, NodeJs, and Netlify functions</li>
+                      <li>Awarded as "Mr. Perfectionist" of Denovers.</li>
+                    </ul>
+
                   </p>
                 </div>
               </div>
@@ -169,43 +192,21 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a2.png" title="" alt="" />
+                  <img src="static/img/digitallyin-logo.jpg" title="" alt="" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
+                  <h6>Web Application Developer</h6>
+                  <label>DigitallyIn | On-site | Dec 2019 - Jun 2020</label>
                   <div className="rb-time">Full Time</div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <img src="static/img/a3.png" title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>Front-end Developer</h6>
-                  <label>WeLab | Remote | Jan 2019 - Present</label>
-                  <div className="rb-time">Full Time</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor.
+                    <ul>
+                  <li>Completed full redesigns of existing websites to improve navigation and enhance visuals.</li>
+                  <li>Used programming capabilities in ReactJs Node.Js, Express JS, and other libraries as needed.</li>
+                  <li>Worked on a fully custom E-Commerce Site that includes all responsibilities as mentioned above</li>
+                  </ul>
+
                   </p>
                 </div>
               </div>
