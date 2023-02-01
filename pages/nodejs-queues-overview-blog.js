@@ -1,5 +1,6 @@
 import Layout from "../src/layout/Layout";
-const SingleBlog = () => {
+
+const NodeJSQueuesOverview = () => {
   return (
     <Layout blog>
       <div className="single-blog">
@@ -186,4 +187,4 @@ const SingleBlog = () => {
     </Layout>
   );
 };
-export default SingleBlog;
+export default NodeJSQueuesOverview;

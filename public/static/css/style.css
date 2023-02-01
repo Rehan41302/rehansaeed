@@ -623,6 +623,11 @@ mark {
   background: #10101a;
   min-height: 100%;
 }
+
+.single-blog .blog-feature-img {
+  text-align: center;
+}
+
 .theme-light .single-blog {
   background: #fff;
 }

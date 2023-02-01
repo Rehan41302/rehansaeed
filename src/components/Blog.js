@@ -15,26 +15,25 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link href="/nodejs-queues-overview-blog">
                   <a>
-                    <img src="static/img/blog-1.jpg" title="" alt="" />
+                    <img src="static/img/node_blog_banner.webp" title="Node.Js Queues Overview" alt="Node.Js" />
                   </a>
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
+                <div className="meta">20/DEC/2022 - WEBSITE</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link href="/nodejs-queues-overview-blog">
                     <a>
-                      Five Solid Evidences Attending Design Is Good For Your
-                      Career Development.
+                      Node.js Queues Overview.
                     </a>
                   </Link>
                 </h6>
               </div>
             </div>
           </div>
-          <div className="col-md-6 m-15px-tb">
+          {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
@@ -99,12 +98,12 @@ const Blog = () => {
                 </h6>
               </div>
             </div>
-          </div>
-          <div className="col-12 read-more-blog text-center">
+          </div> */}
+          {/* <div className="col-12 read-more-blog text-center">
             <Link href="/blog">
               <a className="px-btn px-btn-theme">More Blogs</a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
