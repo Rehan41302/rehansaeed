@@ -46,20 +46,17 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="#">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a href="#">
-            <i className="fab fa-twitter" />
-          </a>
-          <a href="#">
-            <i className="fab fa-instagram" />
-          </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/rehan-saeed-667459160/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin-in" />
           </a>
-          <a href="#">
-            <i className="fab fa-pinterest" />
+          <a href="https://github.com/Rehan41302/" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github" />
+          </a>
+          <a href="https://www.facebook.com/rehansaeed41302" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook-f" />
+          </a>
+          <a href="https://medium.com/@microdev" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-medium" />
           </a>
         </div>
       </header>
@@ -89,12 +86,12 @@ const MenuWithOutBlog = () => {
           <span>Services</span>
         </a>
       </li>
-      <li data-menuanchor="work">
+      {/* <li data-menuanchor="work">
         <a className="nav-link" href="#work">
           <i className="ti-bookmark-alt" />
           <span>Portfolio</span>
         </a>
-      </li>
+      </li> */}
       <li data-menuanchor="blog" className="blog">
         <a className="nav-link" href="#blog">
           <i className="ti-layout-media-overlay-alt-2" />
