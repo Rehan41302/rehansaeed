@@ -15,6 +15,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Head>
         <title>Rehan - Full stack Developer</title>
+        <meta name="description" content="I am a Full stack Software Engineer, modern web applications, web services and online stores."></meta>
       </Head>
       {load && <PreLoader />}
       <Component {...pageProps} />

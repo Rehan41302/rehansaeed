@@ -1314,7 +1314,7 @@ mark {
 }
 @media (min-width: 992px) {
   .about-me .img img {
-    border-radius: 30%;
+    /* border-radius: 30%; */
     /* max-width: inherit; */
     float: right;
   }
