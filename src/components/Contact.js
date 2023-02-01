@@ -24,10 +24,15 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
-          mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          process.env.NEXT_PUBLIC_EMAI_JS_SERVICE_ID, // service id
+          process.env.NEXT_PUBLIC_EMAI_JS_TEMPLATE_ID,
+          {
+            from_name: name,
+            from_email: email,
+            message,
+            subject,
+          },
+          process.env.NEXT_PUBLIC_EMAI_JS_PUBLIC_KEY // public api
         )
         .then(
           (response) => {
@@ -61,15 +66,13 @@ const Contact = () => {
             <div className="contact-info">
               <h4>What’s your story? Get in touch</h4>
               <p>
-                Also available for freelancing if the right project comes
-                along, Feel free to contact me.
+                Also available for freelancing if the right project comes along,
+                Feel free to contact me.
               </p>
               <ul>
                 <li className="media">
                   <i className="ti-map" />
-                  <span className="media-body">
-                    Karachi, Pakistan.
-                  </span>
+                  <span className="media-body">Karachi, Pakistan.</span>
                 </li>
                 <li className="media">
                   <i className="ti-email" />
@@ -77,7 +80,9 @@ const Contact = () => {
                 </li>
                 <li className="media">
                   <i className="ti-linkedin" />
-                  <span className="media-body">linkedin.com/in/rehan-saeed-667459160/</span>
+                  <span className="media-body">
+                    linkedin.com/in/rehan-saeed-667459160/
+                  </span>
                 </li>
               </ul>
             </div>
