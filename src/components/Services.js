@@ -18,7 +18,7 @@ const Services = () => {
         <div className="row">
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-mobile" />
+              <i className="icon theme-bg icon-desktop" />
               <div className="feature-content media-body">
                 <h5>Web Development</h5>
                 <p>
@@ -31,7 +31,7 @@ const Services = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-desktop" />
+              <i className="icon theme-bg icon-mobile" />
               <div className="feature-content media-body">
                 <h5>Mobile App Development</h5>
                 <p>
@@ -45,7 +45,7 @@ const Services = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-target" />
+              <i className="icon theme-bg icon-documents" />
               <div className="feature-content media-body">
                 <h5>Database Management</h5>
                 <p>
@@ -58,7 +58,7 @@ const Services = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-mobile" />
+              <i className="icon theme-bg icon-genius" />
               <div className="feature-content media-body">
                 <h5>Custom Software Development</h5>
                 <p>
@@ -71,7 +71,7 @@ const Services = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-desktop" />
+              <i className="icon theme-bg icon-tools" />
               <div className="feature-content media-body">
                 <h5>Maintenance and Support</h5>
                 <p>

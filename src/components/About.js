@@ -172,18 +172,20 @@ const About = () => {
                   <h6>Full stack Software Engineer</h6>
                   <label>Denovers | On-site | Jun 2020 - Present</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
+                  <div>
                     <ul>
+                      <li>Developed a complete CRM for a housing remodeing firm that helps them to manage administrative as well as 
+                        sales operations, built on NextJs and MySQL using Prisma</li>
                       <li>Worked on an in-house product from start to deployment using ReactJS and Firebase and implemented
                       all the designed requirements into the live product.</li>
-                      <li>Built CRMs on NextJs and MySQL using Prisma</li>
                       <li>Converted a Pre-built React App into Next JS for SEO enhancement.</li>
-                      <li>Revamped various products and applied enhancements based on requirements.</li>
-                      <li>Working on a distribution platform for content creators using ReactJs, NodeJs, and Netlify functions</li>
-                      <li>Awarded as "Mr. Perfectionist" of Denovers.</li>
+                      <li>Revamped an administration panel with multi-user views for the educational 
+                        institutes of US which has 200,000 users in it’s initial phase.</li>
+                      <li>Worked on a distribution platform for content creators, Integrated Twitter and Youtube APIs using ReactJs, NodeJs, and Netlify functions.</li>
+                      <li>Awarded as Mr. Perfectionist in 2021 and Employee of the year in 2022.</li>
                     </ul>
 
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -200,14 +202,13 @@ const About = () => {
                   <h6>Web Application Developer</h6>
                   <label>DigitallyIn | On-site | Dec 2019 - Jun 2020</label>
                   <div className="rb-time">Full Time</div>
-                  <p>
+                  <div>
                     <ul>
-                  <li>Completed full redesigns of existing websites to improve navigation and enhance visuals.</li>
-                  <li>Used programming capabilities in ReactJs Node.Js, Express JS, and other libraries as needed.</li>
-                  <li>Worked on a fully custom E-Commerce Site that includes all responsibilities as mentioned above</li>
-                  </ul>
-
-                  </p>
+                      <li>Completed full redesigns of existing websites to improve navigation and enhance visuals.</li>
+                      <li>Used programming capabilities in ReactJs Node.Js, Express JS, and other libraries as needed.</li>
+                      <li>Worked on a fully custom E-Commerce Site that includes all responsibilities as mentioned above</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
