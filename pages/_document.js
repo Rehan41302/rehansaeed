@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         {/* <!-- Favicon --> */}
-      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
         {/* <!-- plugin CSS --> */}
         <link
           href="static/plugin/bootstrap/css/bootstrap.min.css"
