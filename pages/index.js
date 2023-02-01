@@ -32,7 +32,7 @@ const Index = () => {
                     services and online stores.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" target="_blank" href="https://docs.google.com/document/d/18EyRTDY4KNvb7wn8DWnou800ahGpL4Uk/edit?usp=sharing&ouid=103167468450554446613&rtpof=true&sd=true">
+                    <a className="px-btn px-btn-theme" target="_blank" href="https://docs.google.com/document/d/18EyRTDY4KNvb7wn8DWnou800ahGpL4Uk/edit?usp=sharing&ouid=103167468450554446613&rtpof=true&sd=true" rel="noreferrer">
                       Donwload CV
                     </a>
                   </div>

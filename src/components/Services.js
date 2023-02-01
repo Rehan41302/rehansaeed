@@ -76,7 +76,7 @@ const Services = () => {
                 <h5>Maintenance and Support</h5>
                 <p>
                   I understand that delivering a project is just the beginning. I am committed to providing 
-                  ongoing maintenance and support for all of my clients' projects, ensuring that they 
+                  ongoing maintenance and support for all of my clients{`'`} projects, ensuring that they 
                   continue to run efficiently.
                 </p>
               </div>
