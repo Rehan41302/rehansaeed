@@ -38,7 +38,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.jpg" title="" alt="" />
+                <img src="static/img/me-logo.jpg" title="" alt="" />
               </div>
               <h5>Rehan Saeed</h5>
             </div>
@@ -99,7 +99,7 @@ const MenuWithOutBlog = () => {
         </a>
       </li>
       <li data-menuanchor="contactus">
-        <a className="nav-link" href="#contactus">
+        <a className="nav-link" href="#contactme">
           <i className="ti-map-alt" />
           <span>Contact Me</span>
         </a>
@@ -159,7 +159,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
         <li data-menuanchor="contactus">
-          <Link href="/#contactus">
+          <Link href="/#contactme">
             <a className="nav-link">
               <i className="ti-map-alt" />
               <span>Contact Me</span>

@@ -54,12 +54,12 @@ const About = () => {
                   </div>
                 </div> */}
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#contactme">
                     <span>Contact Me</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
+                  {/* <a className="px-btn px-btn-theme" href="#">
                     <span>Portfolio</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

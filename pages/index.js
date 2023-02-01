@@ -40,7 +40,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  {/* <img src="static/img/main-banner.webp" title="" alt="" /> */}
+                  <img src="static/img/main-banner-bordered.png" title="" alt="" />
                 </div>
               </div>
             </div>
