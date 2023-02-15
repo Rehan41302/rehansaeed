@@ -1,22 +1,22 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect} from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 
-import PreLoader from "../src/layout/PreLoader";
+// import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
 import "../styles/globals.css";
 
 import * as ga from '../lib/ga'
 
 function MyApp({ Component, pageProps }) {
-  const [load, setLoad] = useState(true);
+  // const [load, setLoad] = useState(false);
   const router = useRouter()
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoad(false);
-    }, 1000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoad(false);
+  //   }, 1000);
+  // }, []);
 
   // Handling logs for Google Analytics
   useEffect(() => {
@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
         <title>Rehan - Full stack Developer</title>
         <meta name="description" content="I am a Full stack Software Engineer, modern web applications, web services and online stores."></meta>
       </Head>
-      {load && <PreLoader />}
+      {/* {load && <PreLoader />} */}
       <Component {...pageProps} />
     </Fragment>
   );
