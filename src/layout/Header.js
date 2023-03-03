@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
+import useClickOutside from "../useClickOutside";
 import { activeSection } from "../utilits";
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
+
+  const handleClose = () => {
+    if(sideBarToggle) setSideBarToggle(false)
+  }
+
   useEffect(() => {
     if (!blog) {
       activeSection();
@@ -14,7 +20,7 @@ const Header = ({ blog }) => {
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/">
-              <a className="logo-text">Rehan</a>
+              <a className="logo-text">Rehan S.</a>
             </Link>
           </div>
           <button
@@ -43,7 +49,7 @@ const Header = ({ blog }) => {
               <h5>Rehan Saeed</h5>
             </div>
           </div>
-          {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
+          {blog ? <MenuWithBlog handleClose={handleClose} /> : <MenuWithOutBlog handleClose={handleClose} />}
         </div>
         <div className="nav justify-content-center social-icons">
           <a href="https://www.linkedin.com/in/rehan-saeed-667459160/" target="_blank" rel="noopener noreferrer">
@@ -65,41 +71,42 @@ const Header = ({ blog }) => {
 };
 export default Header;
 
-const MenuWithOutBlog = () => {
+const MenuWithOutBlog = ({ handleClose }) => {
+  let domNode = useClickOutside(handleClose);
   return (
-    <ul className="nav nav-menu" id="pp-menu">
+    <ul className="nav nav-menu" id="pp-menu" ref={domNode}>
       <li data-menuanchor="home" className="active">
-        <a className="nav-link" href="#home">
+        <a className="nav-link" href="#home" onClick={handleClose}>
           <i className="ti-home" />
           <span>Home</span>
         </a>
       </li>
       <li data-menuanchor="about">
-        <a className="nav-link" href="#about">
+        <a className="nav-link" href="#about" onClick={handleClose}>
           <i className="ti-id-badge" />
           <span>About Me</span>
         </a>
       </li>
       <li data-menuanchor="services">
-        <a className="nav-link" href="#services">
+        <a className="nav-link" href="#services" onClick={handleClose}>
           <i className="ti-panel" />
           <span>Services</span>
         </a>
       </li>
       {/* <li data-menuanchor="work">
-        <a className="nav-link" href="#work">
+        <a className="nav-link" href="#work" onClick={handleClose}>
           <i className="ti-bookmark-alt" />
           <span>Portfolio</span>
         </a>
       </li> */}
       <li data-menuanchor="blog" className="blog">
-        <a className="nav-link" href="#blog">
+        <a className="nav-link" href="#blog" onClick={handleClose}>
           <i className="ti-layout-media-overlay-alt-2" />
           <span>Blogs</span>
         </a>
       </li>
       <li data-menuanchor="contactus">
-        <a className="nav-link" href="#contactme">
+        <a className="nav-link" href="#contactme" onClick={handleClose}>
           <i className="ti-map-alt" />
           <span>Contact Me</span>
         </a>
@@ -108,7 +115,7 @@ const MenuWithOutBlog = () => {
   );
 };
 
-const MenuWithBlog = () => {
+const MenuWithBlog = ({ handleClose }) => {
   useEffect(() => {
     window.addEventListener("scroll", () =>
       document.querySelector(".blog").classList.add("active")
@@ -120,7 +127,7 @@ const MenuWithBlog = () => {
       <ul className="nav nav-menu" id="pp-menu">
         <li data-menuanchor="home">
           <Link href="/#home">
-            <a className="nav-link">
+            <a className="nav-link" onClick={handleClose}>
               <i className="ti-home" />
               <span>Home</span>
             </a>
@@ -128,7 +135,7 @@ const MenuWithBlog = () => {
         </li>
         <li data-menuanchor="about">
           <Link href="/#about">
-            <a className="nav-link">
+            <a className="nav-link" onClick={handleClose}>
               <i className="ti-id-badge" />
               <span>About Me</span>
             </a>
@@ -136,7 +143,7 @@ const MenuWithBlog = () => {
         </li>
         <li data-menuanchor="services">
           <Link href="/#services">
-            <a className="nav-link">
+            <a className="nav-link" onClick={handleClose}>
               <i className="ti-panel" />
               <span>Services</span>
             </a>
@@ -144,7 +151,7 @@ const MenuWithBlog = () => {
         </li>
         <li data-menuanchor="work">
           <Link href="/#work">
-            <a className="nav-link">
+            <a className="nav-link" onClick={handleClose}>
               <i className="ti-bookmark-alt" />
               <span>Portfolio</span>
             </a>
@@ -152,7 +159,7 @@ const MenuWithBlog = () => {
         </li>
         <li data-menuanchor="blog" className="blog active">
           <Link href="/#blog">
-            <a className="nav-link">
+            <a className="nav-link" onClick={handleClose}>
               <i className="ti-layout-media-overlay-alt-2" />
               <span>Blogs</span>
             </a>
@@ -160,7 +167,7 @@ const MenuWithBlog = () => {
         </li>
         <li data-menuanchor="contactus">
           <Link href="/#contactme">
-            <a className="nav-link">
+            <a className="nav-link" onClick={handleClose}>
               <i className="ti-map-alt" />
               <span>Contact Me</span>
             </a>

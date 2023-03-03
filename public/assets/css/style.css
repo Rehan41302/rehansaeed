@@ -292,10 +292,11 @@ mark {
   .mob-header .navbar-brand {
     padding: 0; }
   .mob-header .logo-text {
-    font-weight: 600;
     color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
     font-size: 25px;
-    line-height: 1; }
+    letter-spacing: 7px;}
     .theme-light .mob-header .logo-text {
       color: #0b0b13; }
 
