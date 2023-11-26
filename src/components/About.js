@@ -23,12 +23,12 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Full stack Developer with over 3 years of
+                  {`I'm`} a Full stack Developer with 4 years of
                   experience.{" "}
                 </h3>
                 <p>
                   {`I'm`} a Full stack Developer with in-depth knowledge of React, NextJs and NodeJs.
-                  {`I'm`} an analytical and precise professional with over 3 years of hands-on experience taking charge of front 
+                  {`I'm`} an analytical and precise professional with 4 years of hands-on experience taking charge of front 
                   and back-end web development. I code and create web
                   applications for amazing people around the world. I like to work with
                   new people. New people new Experiences.
@@ -78,6 +78,11 @@ const About = () => {
                 <p>Indus University</p>
               </li>
               <li>
+                <span>2023-2023</span>
+                <h6>Advanced React</h6>
+                <p>Meta</p>
+              </li>
+              <li>
                 <span>2022-2022</span>
                 <h6>Micro-services with NodeJs</h6>
                 <p>LinkedIn Learning</p>
@@ -93,7 +98,7 @@ const About = () => {
             <div className="skills-box">
               <h3>My skills</h3>
               <p>
-                {`I'm`} a Freelancer Front-end Developer with over 3 years of
+                {`I'm`} a Full stack developer focused on Front-end Developer with 4 years of
                 experience. I code and create web elements for amazing people
                 around the world. I like work with new people. New people new
                 Experiences.
@@ -174,6 +179,8 @@ const About = () => {
                   <div className="rb-time">Full Time</div>
                   <div>
                     <ul>
+                      <li>Worked on an enterprise business agility product specifically on ALMs Integration 
+                        resulting in 20% incraese in the revenew</li>
                       <li>Developed a complete CRM for a housing remodeing firm that helps them to manage administrative as well as 
                         sales operations, built on NextJs and MySQL using Prisma</li>
                       <li>Worked on an in-house product from start to deployment using ReactJS and Firebase and implemented
