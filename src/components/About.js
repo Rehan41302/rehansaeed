@@ -180,7 +180,7 @@ const About = () => {
                   <div>
                     <ul>
                       <li>Worked on an enterprise business agility product specifically on ALMs Integration 
-                        resulting in 20% incraese in the revenew</li>
+                        resulting in 20% incraese in the revenue</li>
                       <li>Developed a complete CRM for a housing remodeing firm that helps them to manage administrative as well as 
                         sales operations, built on NextJs and MySQL using Prisma</li>
                       <li>Worked on an in-house product from start to deployment using ReactJS and Firebase and implemented
@@ -211,7 +211,7 @@ const About = () => {
                   <div className="rb-time">Full Time</div>
                   <div>
                     <ul>
-                      <li>Completed full redesigns of existing websites to improve navigation and enhance visuals.</li>
+                      <li>Completed full redesign of existing websites to improve navigation and enhance visuals.</li>
                       <li>Used programming capabilities in ReactJs Node.Js, Express JS, and other libraries as needed.</li>
                       <li>Worked on a fully custom E-Commerce Site that includes all responsibilities as mentioned above</li>
                     </ul>
